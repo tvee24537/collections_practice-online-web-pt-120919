@@ -40,13 +40,13 @@ end
 
 def sum_array(array)
   sum = 0
+
+  #  array.each do |num|
+    sum+=num
+  end
   array.inject do |sum,x|
     sum + x
-  end
-  
-#  array.each do |num|
-#    sum+=num
-#  end
+  end  
   sum
 end 
 
