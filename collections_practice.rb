@@ -7,5 +7,8 @@ def sort_array_desc(int)
 end
 
 def sort_array_char_count(str)
-  str
+  str.sort do |low, high|
+    low.length <=> high.length
+    
+  end
 end
