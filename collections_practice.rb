@@ -39,10 +39,14 @@ def find_a(array)
 end
 
 def sum_array(array)
-  sum = 0
-  array.each do |num|
-    sum+=num
-  end
+    using inject method (long)
+      array.inject do |sum,x|
+        sum + x
+      end
+#  sum = 0
+#  array.each do |num|
+#    sum+=num
+#  end
   sum
 end 
 
