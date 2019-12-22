@@ -58,5 +58,5 @@ def add_s(array)
       word + "s"
     end
   end
-  array.each_with_index.collect{|element, index|}
+#  array.each_with_index.collect{|element, index|}
 end
